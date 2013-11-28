@@ -1,0 +1,48 @@
+.green {
+  background-color: rgb(50,255,50);
+}
+
+.red {
+  background-color: rgb(255,100,100);
+}
+
+.blue {
+  background-color: rgb(100,100,255);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+#navigation_area {
+  overflow: visible;
+}
+
+#navigation_area > li {
+  display:inline;
+  color: white;
+  padding: 10px;
+  float: left;
+  background-color: gray;
+  margin: 5px;
+  text-align: center;
+
+}
+
+#navigation_area ul {
+  display: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navigation_area > li:hover ul {
+  display: block;
+}
+
+#navigation_area ul li {
+  height: auto;
+  float: none;
+  margin-top: 10px;
+}

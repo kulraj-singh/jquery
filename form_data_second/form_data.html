@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="form_data.css"/>
+    <script type="text/javascript" src="jquery-1.5.0.js"></script>
+    <script type="text/javascript" src="form_data.js"></script>
+  </head>
+  <body>
+    <input type="reset" id="reset" value="Reset" onclick="resetFilters()"/>
+    <form id="input_form" onsubmit="return validate(this);">
+      <label class="header">Enter details</label>
+      <ul>
+        <li>
+          <label class="input_form">Name</label>
+          <input type="text" id="name"/>
+        </li>
+        <li>
+          <label class="input_form">Gender</label>
+          <input type="radio" id="male" name="gender" value="male">Male
+          <input type="radio" id="female" name="gender" value="female">Female
+        </li>
+        <li>
+          <label class="input_form">Age</label>
+          <input type="text" id="age"/>
+        </li>
+      </ul>
+      <input type="submit" id="submit" value="submit"/>
+    </form>
+
+    <form id="selection_form">
+      <label class="header">Make a selection</label>
+      <ul>
+        <li>
+          <label class="selection_form">Gender</label>
+        </li>
+        <li>
+          <input type="radio" name="gender_selector" value="male">Male
+          <input type="radio" name="gender_selector" value="female">Female
+        </li>
+      </ul>
+      <ul id="age_ul">
+        <li>
+          <label class="selection_form">Age</label>
+        </li>
+        <li>
+          <select id="age_selector">
+            <option value="select">select</option>
+          </select>
+        </li>
+      </ul>
+    </form>
+
+    <table border="1" id="table" width="auto" style="table-layout:fixed" >
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+      </tr>
+  </body>
+</html>
+      

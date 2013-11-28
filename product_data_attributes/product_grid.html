@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-1.5.0.js"></script>
+    <script type="text/javascript" src="product_grid.js"></script>
+    <link rel="stylesheet" type="text/css" href="product_grid.css"/>
+  </head>
+  <body>
+    <div id="brand">
+      <a> SELECT BRANDS </a>
+      <input type="checkbox" class="brand" id="BRAND A" >Brand A<br>
+      <input type="checkbox" class="brand" id="BRAND B">Brand B<br>
+      <input type="checkbox" class="brand" id="BRAND C" >Brand C<br>
+      <input type="checkbox" class="brand" id="BRAND D">Brand D<br>
+    </div>
+    <div id="toggle">
+      <input type="radio" name="toggle" value="all" id="all" checked>All<br>
+      <input type="radio" name="toggle" value="available" id="available">Available
+    </div>
+    <div id="color">
+      <a> SELECT COLORS </a>
+      <input type="checkbox" class="color" id="Yellow">Yellow<br>
+      <input type="checkbox" class="color" id="Red">Red<br>
+      <input type="checkbox" class="color" id="Green" >Green<br>
+      <input type="checkbox" class="color" id="Blue">Blue<br>
+    </div>
+    <div id="products">
+      <div data-brand="BRAND A" data-color="Yellow" data-sold-out="1"><img src="images/1.jpg"/></div>
+      <div data-brand="BRAND B" data-color="Red" data-sold-out="0"><img src="images/2.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Green" data-sold-out="0"><img src="images/3.jpg"/></div>
+      <div data-brand="BRAND A" data-color="Red" data-sold-out="1"><img src="images/4.jpg"/></div>
+      <div data-brand="BRAND B" data-color="Blue" data-sold-out="0"><img src="images/5.jpg"/></div>
+      <div data-brand="BRAND C" data-color="Green" data-sold-out="0"><img src="images/6.jpg"/></div>
+      <div data-brand="BRAND C" data-color="Red" data-sold-out="1"><img src="images/7.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Blue" data-sold-out="0"><img src="images/8.jpg"/></div>
+      <div data-brand="BRAND A" data-color="Yellow" data-sold-out="0"><img src="images/9.jpg"/></div>
+      <div data-brand="BRAND B" data-color="Yellow" data-sold-out="1"><img src="images/10.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Green" data-sold-out="0"><img src="images/11.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Yellow" data-sold-out="0"><img src="images/12.jpg"/></div>
+      <div data-brand="BRAND A" data-color="Blue" data-sold-out="0"><img src="images/13.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Blue" data-sold-out="0"><img src="images/14.jpg"/></div>
+      <div data-brand="BRAND B" data-color="Green" data-sold-out="0"><img src="images/15.jpg"/></div>
+      <div data-brand="BRAND B" data-color="Yellow" data-sold-out="1"><img src="images/16.jpg"/></div>
+      <div data-brand="BRAND A" data-color="Green" data-sold-out="1"><img src="images/17.jpg"/></div>
+      <div data-brand="BRAND D" data-color="Blue" data-sold-out="1"><img src="images/18.jpg"/></div>
+      <div data-brand="BRAND C" data-color="Green" data-sold-out="0"><img src="images/19.jpg"/></div>
+      <div data-brand="BRAND A" data-color="Yellow" data-sold-out="0"><img src="images/20.jpg"/></div>
+    </div>      
+  </body>
+</html>

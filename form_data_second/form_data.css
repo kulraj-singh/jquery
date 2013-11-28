@@ -1,0 +1,59 @@
+#reset {
+  position: relative;
+  left: 15%;
+  margin: 0 0 15 15;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  margin-bottom: 5px;
+}
+
+form {
+  border-style: solid;
+  width: 40%;
+}
+
+#submit {
+  position: relative;
+  left: 40%;
+  background-color: green;
+  color: white;
+}
+
+label {
+  width: 150px;
+  background-color: rgb(150,150,255);
+  display: inline-block;
+}
+
+#age_ul {
+  position: relative;
+  top: -60px;
+  left: 250px;
+}
+
+label.header {
+  background-color: rgb(100,255,100);
+  width: 98%;
+  padding: 5 5 5 5;
+  text-align: center;
+}
+
+#age_selector {
+  width: 150px;
+}
+
+.green {
+  background-color: rgb(50,255,50);
+}
+
+.red {
+  background-color: rgb(255,100,100);
+}
+
+.yellow {
+  background-color: rgb(255,255,20);
